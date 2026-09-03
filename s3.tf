@@ -1,7 +1,7 @@
 module "s3_bucket" {
   source = "terraform-aws-modules/s3-bucket/aws"
 
-  bucket = "Viswa7898"
+  bucket = "viswa7898"
   acl    = "private"
 
   control_object_ownership = true
